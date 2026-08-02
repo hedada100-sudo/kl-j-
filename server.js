@@ -8,8 +8,8 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// ⚠️ এখানে আপনার ফাইনাল মঙ্গোডিবি লিংক বসানো হয়েছে
-const DB_URI = 'mongodb+srv://hedada100_db_user:1aFF5PWTjPcFU0MC@cluster0.eu4yill.mongodb.net/TRADE_DB?retryWrites=true&w=majority';
+// ✅ আপনার দেওয়া সঠিক ইউজারনেম ও পাসওয়ার্ড ব্যবহার করা হয়েছে
+const DB_URI = 'mongodb+srv://hedada100_db_user:laFF5PmTJpCFUOMC@cluster0.eu4yill.mongodb.net/TRADE_DB?retryWrites=true&w=majority';
 
 // MongoDB Schema Design
 const userSchema = new mongoose.Schema({
